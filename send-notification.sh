@@ -32,11 +32,9 @@ SMSAPI_SEND_ACTION="sendmsg"
 ## Configuration utilisateur
 ##
 
-# Login utilisateur / identifiant Free Mobile (celui utilisé pour accéder à l'Espace Abonné)
-USER_LOGIN="1234567890"
+#Chargement des identifiants dans le fichier configuration
 
-# Clé d'identification (générée et fournie par Free Mobile via l'Espace Abonné, "Mes Options" : https://mobile.free.fr/moncompte/index.php?page=options)
-API_KEY="s0me5eCre74p1K3y"
+.configuration
 
 # Texte qui sera ajouté AVANT chaque message envoyé
 MESSAGE_HEADER="Notification :${NEWLINE_CHAR}"
