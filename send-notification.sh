@@ -34,7 +34,7 @@ SMSAPI_SEND_ACTION="sendmsg"
 
 #Chargement des identifiants dans le fichier configuration
 
-.configuration
+. ./configuration
 
 # Texte qui sera ajouté AVANT chaque message envoyé
 MESSAGE_HEADER="Notification :${NEWLINE_CHAR}"
